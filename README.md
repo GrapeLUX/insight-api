@@ -1,6 +1,6 @@
 # Insight API
 
-A LUX blockchain REST and web socket API service for [Luxcore Node](https://github.com/216k155/luxcore-node).
+A LUX blockchain REST and web socket API service for [Luxcore Node](https://github.com/LUX-Core/luxcore-node).
 
 This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/216k155/lux-explorer.
 
@@ -23,13 +23,13 @@ This is a backend-only service. If you're looking for the web frontend applicati
 4. Install luxcore-node
 
     ```bash
-    npm i https://github.com/216k155/luxcore-node.git#master
+    npm i https://github.com/LUX-Core/luxcore-node.git#master
 
     $(npm bin)/luxcore-node create mynode
 
     cd mynode
 
-    $(npm bin)/luxcore-node install https://github.com/216k155/insight-api.git#master
+    $(npm bin)/luxcore-node install https://github.com/LUX-Core/insight-api.git#master
     ```  
 5. Edit luxcore-node.json
 
